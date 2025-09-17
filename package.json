@@ -1,0 +1,27 @@
+{
+  "name": "marketing-content-generator",
+  "version": "1.0.0",
+  "description": "AI-powered marketing content generator for Instagram, YouTube, and Blog",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -s . -l ${PORT:-8000}",
+    "serve": "npx serve -s . -p 3000",
+    "dev": "npx serve -s . -p 3000"
+  },
+  "keywords": [
+    "marketing",
+    "content-generator",
+    "ai",
+    "gpt",
+    "static-website"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
